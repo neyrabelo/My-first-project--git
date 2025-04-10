@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .88px;
+    align-items: center;
+    color: #17233D;
+    padding: 47px;
+
+}
+
+a {
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #4CB538;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px #4CB538 solid;
+    cursor: pointer;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: .4;
+}
+
+button:active {
+    opacity: .8;
+}
+
+.img-logo {
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    margin: 177px 0 0 121px;
+}
+
+section {
+    display:inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: .6px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: .5px;
+    color: #4B505A;
+    margin: 47px 0 47px 0;
+}
+
+.link-section {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color:#6FBF44;
+    margin: auto;
+}
+
+.link-section:active {
+    color: #161A49;
+}
+
+@media screen and (max-width: 700px) {
+
+    a {
+        display: none;
+    }
+
+    button {
+        position: relative;
+        margin: 17px 15px 0 284px;
+    }
+
+    img {
+        width: 312px;
+        height: 288px;
+        display: block;
+        position: relative;
+    }
+
+    section {
+        display: block;
+        text-align: center;
+    }
+
+    h1 {
+        width: 278px;
+        font-size: 30px;
+        font-weight: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: .5px;
+        text-align: center;
+        margin: auto;
+    }
+}
